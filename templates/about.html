@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <p>Personal project: <span style="font-size: 25px"><strong>Blog and To-do Web Apps</strong></span></p>
+                <p>Author: <strong>Ha Tran</strong></p>
+            </div>
+            <p>Framework: <strong>Django v3.0.6</strong></p>
+            <p>Languages: <strong>Python v3.8.2, HTML5, Bootstrap4, CSS3</strong></p>
+            <p>Database: <strong>SQLite3</strong></p>
+        </div>
+    </article>
+
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <p>App: <span style="font-size: 20px"><strong>Blog</strong></p>
+            </div>
+            <p><strong>Features</strong>:</p>
+            <ul>
+                <li>Register account, login, update profile, reset password</li>
+                <li>Create, update, delete posts</li>
+                <li>View a list of posts created by a specific author</li>
+                <li>Access API to get the list of posts</li>
+            </ul>
+            <br>
+            <p><strong>Rules:</strong>:</p>
+            <ul>            
+                <li>Only logged in users can create, update, delete posts</li>
+                <li>The logged in users can only update and delete posts created by themselves</li>
+            </ul>            
+        </div>
+    </article>
+
+    <article class="media content-section">
+        <div class="media-body">
+            <div class="article-metadata">
+                <p>App: <span style="font-size: 20px"><strong>To-do List</strong></p>
+            </div>
+            <p><strong>Features</strong>:</p>
+            <ul>
+                <li>Add, update, delete a to-do item to the list</li>
+                <li>Mark an item done, the closed items will be crossed off</li>
+                <li>Reopen completed items</li>
+            </ul>
+            <br>
+            <p><strong>Rules:</strong>:</p>
+            <ul>
+                <li>Only logged in users can create, update, delete to-do list</li>
+            </ul>            
+        </div>
+    </article>    
+{% endblock content %}
