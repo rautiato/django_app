@@ -25,7 +25,7 @@ SECRET_KEY = '!==9mndtxwjcke0&62$0c5d=*7%0r_rc150w-#1(57onfy_7r6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cryptic-scrubland-51390.herokuapp.com']
+ALLOWED_HOSTS = ['cryptic-scrubland-51390.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
